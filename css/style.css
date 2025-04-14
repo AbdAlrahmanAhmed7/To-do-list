@@ -5,7 +5,67 @@
 body{
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
+  background: #171717;
   height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  gap: 20px;
+  padding: 20px;
+}
+.container .text{
+  margin-bottom: 70px;
+}
+.container h1{
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.container p{
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+.container .cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.container .cards .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  background-color: #284cff20;
+  padding: 30px;
+  border-radius: 15px;
+}
+.container .cards .card p{
+  font-weight: 400;
+  font-size: 15px;
+}
+.container .card a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #192d8f;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.container .card i{
+  color: #192d8f;
 }
