@@ -25,4 +25,14 @@ btn.addEventListener('click', () => {
     div.appendChild(edit);
     list.appendChild(div);
     input.value = '';
+
+    del.addEventListener('click' , () =>{
+        list.removeChild(div);
+    })
+
+    edit.addEventListener('click', () => {
+        input.value = label.innerText;
+        list.removeChild(div);
+        input.focus();
+    })
 })
